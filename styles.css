@@ -1,15 +1,42 @@
-head {
+.head {
+font-size: 24px;
+color: #F9FAF8;
+}
 
+.head, .hero, footer {
+    background-color: #1F2937;
+}
+
+.hero{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.herotext , .linktext{
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 body {
-    
+
 }
 
-a {
-    
+.quote, .quotetext {
+    background-color: #e5e7eb;
 }
 
-img {
+.quote {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
 
+}
+
+.callaction, button {
+    background-color: #3882F6;
+}
+
+footer{
+    color: #F9FAF8;
 }
