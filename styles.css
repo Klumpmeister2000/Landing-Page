@@ -8,6 +8,11 @@
     text-decoration: none;
 }
 
+.link {
+    margin-left: auto;
+    text-decoration: none;
+}
+
 .head, .hero, footer {
     background-color: #1F2937;
 
@@ -34,7 +39,8 @@
 }
 
 .container {
-
+    display: flex;
+    justify-content: center;
 }
 
 body {
