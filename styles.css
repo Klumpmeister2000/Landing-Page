@@ -18,19 +18,33 @@ color: #F9FAF8;
     color: #e5e7eb;
 }
 
+.infoheader {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.container {
+
+}
+
 body {
 
 }
 
-.quote, .quotetext {
+.quote, .thor {
     background-color: #e5e7eb;
 }
 
 .quote {
     font-size: 36px;
-    font-weight: 800;
-    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+}
 
+.thor {
+    font-weight: 800;
+    font-style: normal;
 }
 
 .callaction, button {
