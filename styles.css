@@ -87,6 +87,9 @@ body {
 
 footer{
     position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     color: #F9FAF8;
     text-align: center;
 }
