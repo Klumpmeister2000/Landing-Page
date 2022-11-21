@@ -1,0 +1,51 @@
+header {
+    font-size: 24px;
+    color: #F9FAF8
+}
+
+.nav-list {
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    color: #F9FAF8;
+    justify-content: flex-end;
+}
+
+.nav-list li {
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style: none;
+}
+
+body {
+    background-color: #1F2937;
+}
+
+.herocontainer {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+}
+
+.heromain {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.herotext {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882f6;
+}
+
+img {
+    background-color: grey;
+}
