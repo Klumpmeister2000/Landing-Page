@@ -25,7 +25,7 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-wrap: nowrap;
-    align-items: flex-start;
+    justify-content: center;
 }
 
 .heromain {
@@ -47,8 +47,10 @@ button {
 }
 
 .heroimg {
+    background-size: 500px;
     background-color: grey;
     align-self: center;
+    color: #F9FAF8;
 }
 
 .info_text {
