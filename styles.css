@@ -1,10 +1,6 @@
-header {
-    font-size: 24px;
-    color: #F9FAF8
-}
-
-.nav-list {
+header, .nav-list {
     display: flex;
+    flex-shrink: 1;
     gap: 1rem;
     margin: 0;
     padding: 0;
@@ -27,9 +23,9 @@ body {
 .herocontainer {
     display: flex;
     align-items: flex-start;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    flex-shrink: 1;
+    flex-shrink: 1 16%;
 }
 
 .heromain {
@@ -49,11 +45,18 @@ button {
 
 img {
     background-color: grey;
+    height: 100px;
+    width: 200px;
 }
 
 .quote, .quotetext {
+    display: flex;
+    flex-grow: 1;
     background-color: #E5E7EB;
-    color:#1F2937
+    color:#1F2937;
+    padding: 200px;
+    width: auto;
+    height: auto;
 }
 
 .quotetext {
