@@ -6,7 +6,7 @@ header, .nav-list {
     padding: 0;
     font-size: 24px;
     color: #F9FAF8;
-
+    justify-content: space-between;
 }
 
 .nav-list li {
@@ -14,7 +14,6 @@ header, .nav-list {
     color: #E5E7EB;
     list-style: none;
     flex-shrink: 1;
-    justify-content: flex-end;
 }
 
 body {
@@ -43,7 +42,7 @@ h4 {
 }
 
 .columns > * {
-    flex-shrink: 1;
+    flex: 1;
 }
 
 .herocontainer {
@@ -57,7 +56,7 @@ h4 {
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
-    flex-shrink: 1;
+    flex: 1;
 }
 
 .herotext {
@@ -77,18 +76,22 @@ img {
 
 .quote, .quotetext {
     display: flex;
-    flex-grow: 1;
+    flex-direction: column;
+    flex: 1;
     background-color: #E5E7EB;
     color:#1F2937;
+    align-items: baseline;
 }
 
 .quotetext {
     font-style: italic;
+    align-self: flex-start;
 }
 
 .thor {
     font-size: 36px;
     font-style: bold;
+    align-self: flex-end;
 
 }
 
