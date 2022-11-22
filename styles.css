@@ -21,6 +21,32 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+.heromain {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 48px;
+    justify-content: space-between;
+}
+
+.herotext {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+.heroimg {
+    background-color: grey;
+    flex: 1;
+    flex-basis: 100%;
+
+}
+
 .info_text {
     display: flex;
     justify-content: center;
@@ -31,8 +57,8 @@ body {
 }
 .columns {
     display: flex;
+    justify-content: space-evenly;
     gap: 2rem;
-
     background-color: #E5E7EB;
     color: #1F2937;
 }
@@ -45,35 +71,6 @@ h4 {
 
 .columns > * {
     flex: 1;
-}
-
-.herocontainer {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.heromain {
-    font-size: 48px;
-    font-weight: bold;
-    color: #F9FAF8;
-    flex: 1;
-}
-
-.herotext {
-    font-size: 18px;
-    color: #F9FAF8;
-}
-
-button {
-    background-color: #3882f6;
-}
-
-img {
-    background-color: grey;
-    height: 100px;
-    width: 200px;
 }
 
 .quote, .quotetext {
