@@ -101,7 +101,9 @@ h4 {
 }
 
 .banner, .signup {
-    
+    background-color: #3882f6;
+    border: 100px;
+    border-radius: 5px;
 }
 
 footer {
