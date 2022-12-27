@@ -9,6 +9,10 @@ header, .nav-list {
     justify-content: space-between;
 }
 
+a {
+    text-decoration: none;
+}
+
 .nav-list li {
     font-size: 18px;
     color: #E5E7EB;
